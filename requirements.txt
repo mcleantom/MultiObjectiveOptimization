@@ -1,0 +1,10 @@
+pymoo
+osmnx
+numpy
+pandas
+matplotlib
+tqdm
+tabulate
+ipyleaflet
+jupyterlab
+seaborn
