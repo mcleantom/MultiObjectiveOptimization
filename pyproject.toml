@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MultiObjectiveOptimization"
+authors = [
+    {name = "Tom McLean ", email = "mcleantom97@gmail.com"},
+]
+description = "MOO"
+readme = "README.rst"
+requires-python = ">=3.7"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+version = "0.1.0"
+
+dependencies = [
+    "pymoo",
+    "osmnx",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "tqdm",
+    "tabulate",
+    "ipyleaflet",
+    "jupyterlab",
+    "seaborn",
+    "scikit-learn",
+    "torch",
+    "tensorboardX",
+    "fastprogress"
+]
+
+[tool.poetry]
+packages = [
+    {include="graph_convent"}
+]

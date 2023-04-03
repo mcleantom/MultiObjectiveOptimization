@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="99" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="th" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="sphinx" />
+            <item index="1" class="java.lang.String" itemvalue="nbsphinx" />
+            <item index="2" class="java.lang.String" itemvalue="sphinx-pydantic" />
+            <item index="3" class="java.lang.String" itemvalue="isort" />
+            <item index="4" class="java.lang.String" itemvalue="grpcio-tools" />
+            <item index="5" class="java.lang.String" itemvalue="sphinx-click" />
+            <item index="6" class="java.lang.String" itemvalue="grpc" />
+            <item index="7" class="java.lang.String" itemvalue="PIL" />
+            <item index="8" class="java.lang.String" itemvalue="starlette" />
+            <item index="9" class="java.lang.String" itemvalue="WeatherRouting" />
+            <item index="10" class="java.lang.String" itemvalue="geojson" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="time.time.sleep" />
+          <option value="GribManager.Data.MultiProcessFile.min_time.replace" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,3 +1,6 @@
+graph_convnet/data/tsp-data
+graph_convnet/logs/tsp-models
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

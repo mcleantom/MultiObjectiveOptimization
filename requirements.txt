@@ -8,3 +8,7 @@ tabulate
 ipyleaflet
 jupyterlab
 seaborn
+scikit-learn
+torch
+tensorboardX
+fastprogress
